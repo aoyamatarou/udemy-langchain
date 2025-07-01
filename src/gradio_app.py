@@ -37,4 +37,4 @@ if __name__ == "__main__":
     else:
         auth = None
         
-    demo.launch(auth = auth)
+    demo.launch(auth = auth, server_name="0.0.0.0", server_port=int(os.environ.get("PORT", 8080)))
