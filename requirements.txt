@@ -1,0 +1,5 @@
+python==3.11.3
+openai==0.27.6
+langchain==0.0.172
+dotenv==1.0.0
+gradio==3.31.0
